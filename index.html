@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090711">
+  <meta name="description" content="DISCO FEVER Mocktail Bar, Bharuch, Gujarat">
+  <title>DISCO FEVER | Mocktail Bar</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    ✦ BHARUCH, GUJARAT ✦ GOOD DRINKS. BETTER VIBES.
+  </div>
+
+  <header class="header">
+    <a href="#home" class="logo">
+      <span class="logo-icon">DF</span>
+      <span>DISCO <b>FEVER</b><small>MOCKTAIL BAR</small></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav id="navigation">
+      <a href="#home">Home</a>
+      <a href="#menu">Our Menu</a>
+      <a href="#experience">Experience</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#events">Events</a>
+      <a href="#contact">Contact</a>
+      <a href="#booking" class="nav-button">Book a Table ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">✦ YOUR ALCOHOL-FREE VIBE DESTINATION</div>
+
+        <h1>NOT JUST A BAR.<br>
+          <span>IT'S A VIBE.</span>
+        </h1>
+
+        <p>
+          Step into the fever. Taste the colors. Feel the music.
+          Discover refreshing mocktails, delicious bites and a
+          vibrant lounge experience in Bharuch.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#menu" class="btn primary">Explore Our Menu ↘</a>
+          <a href="#booking" class="btn secondary">Book Your Table</a>
+        </div>
+
+        <div class="hero-tags">
+          <span>✦ REFRESHING MOCKTAILS</span>
+          <span>✦ BHARUCH, GUJARAT</span>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="disco-ball">✦</div>
+
+        <div class="mocktail-glass glass-blue">
+          <div class="straw"></div>
+          <div class="drink-liquid"></div>
+          <span class="fruit">✦</span>
+        </div>
+
+        <div class="mocktail-glass glass-pink">
+          <div class="straw"></div>
+          <div class="drink-liquid"></div>
+          <span class="fruit">✿</span>
+        </div>
+
+        <div class="hero-caption">
+          <small>FRESHLY MIXED</small>
+          <strong>PURE GOOD VIBES</strong>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker">
+      GOOD DRINKS ✦ BETTER VIBES ✦ ZERO ALCOHOL ✦
+      GOOD DRINKS ✦ BETTER VIBES ✦ ZERO ALCOHOL ✦
+    </div>
+
+    <!-- MENU SECTION -->
+    <section class="section" id="menu">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">✦ SIP SOMETHING SPECIAL</div>
+          <h2>THE <span>MENU</span></h2>
+        </div>
+        <p>Colorful sips, refreshing flavors and tasty bites.
+          Find your next favorite.</p>
+      </div>
+
+      <input
+        type="search"
+        id="menuSearch"
+        class="search"
+        placeholder="Search drinks or snacks..."
+        aria-label="Search menu"
+      >
+
+      <div class="filters">
+        <button class="filter active" data-category="All">All</button>
+        <button class="filter" data-category="Juices">Fresh Juices</button>
+        <button class="filter" data-category="Mocktails">Mocktails</button>
+        <button class="filter" data-category="Iced Teas">Iced Teas</button>
+        <button class="filter" data-category="Masala Drinks">Masala Drinks</button>
+        <button class="filter" data-category="Snacks">Snacks</button>
+        <button class="filter" data-category="Energy Drinks">Energy Drinks</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+
+        <article class="menu-card" data-category="Juices">
+          <div class="menu-art orange-art">🍊</div>
+          <div class="menu-info"><div><h3>Orange Juice</h3><p>Fresh citrus flavor</p></div><b>₹80</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Juices">
+          <div class="menu-art yellow-art">🍍</div>
+          <div class="menu-info"><div><h3>Pineapple Juice</h3><p>Tropical freshness</p></div><b>₹80</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Juices">
+          <div class="menu-art red-art">🍉</div>
+          <div class="menu-info"><div><h3>Watermelon Juice</h3><p>Cool and refreshing</p></div><b>₹80</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Juices">
+          <div class="menu-art red-art">❤️</div>
+          <div class="menu-info"><div><h3>Pomegranate Juice</h3><p>Rich fruity taste</p></div><b>₹90</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Mocktails">
+          <div class="menu-art blue-art">🩵</div>
+          <div class="menu-info"><div><h3>Blue Rainbow</h3><p>Bright and tropical</p></div><b>₹80</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Mocktails">
+          <div class="menu-art pink-art">🌅</div>
+          <div class="menu-info"><div><h3>Three Colour Sunset</h3><p>Colorful fruity mix</p></div><b>₹80</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Mocktails">
+          <div class="menu-art pink-art">🍓</div>
+          <div class="menu-info"><div><h3>Strawberry Daiquiri*</h3><p>Alcohol-free version</p></div><b>₹90</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Mocktails">
+          <div class="menu-art purple-art">🫐</div>
+          <div class="menu-info"><div><h3>Black Plum</h3><p>Deep fruity flavor</p></div><b>₹100</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Mocktails">
+          <div class="menu-art green-art">🌿</div>
+          <div class="menu-info"><div><h3>Chilli Guava</h3><p>Sweet with a spicy kick</p></div><b>₹90</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Iced Teas">
+          <div class="menu-art orange-art">🍑</div>
+          <div class="menu-info"><div><h3>Peach Iced Tea</h3><p>Chilled peach flavor</p></div><b>₹70</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Iced Teas">
+          <div class="menu-art yellow-art">🍋</div>
+          <div class="menu-info"><div><h3>Lemon Iced Tea</h3><p>Crisp and refreshing</p></div><b>₹90</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Iced Teas">
+          <div class="menu-art pink-art">🍓</div>
+          <div class="menu-info"><div><h3>Strawberry Iced Tea</h3><p>Sweet berry refreshment</p></div><b>₹90</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Masala Drinks">
+          <div class="menu-art green-art">🥤</div>
+          <div class="menu-info"><div><h3>Masala Soda</h3><p>Classic spicy fizz</p></div><b>₹50</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Masala Drinks">
+          <div class="menu-art yellow-art">🍋</div>
+          <div class="menu-info"><div><h3>Lemon Soda</h3><p>Sweet, salty or classic</p></div><b>₹60</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Masala Drinks">
+          <div class="menu-art green-art">🫧</div>
+          <div class="menu-info"><div><h3>Jeera Soda</h3><p>Jeera and soda twist</p></div><b>₹50</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Snacks">
+          <div class="menu-art yellow-art">🍟</div>
+          <div class="menu-info"><div><h3>Lays Chaat Plain</h3><p>Crunchy and tangy</p></div><b>₹70</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Snacks">
+          <div class="menu-art orange-art">🧀</div>
+          <div class="menu-info"><div><h3>Lays Chaat with Cheese</h3><p>Cheesy and crunchy</p></div><b>₹90</b></div>
+        </article>
+
+        <article class="menu-card" data-category="Energy Drinks">
+          <div class="menu-art blue-art">⚡</div>
+          <div class="menu-info"><div><h3>Premium Energy Drink</h3><p>Ask for available options</p></div><b>₹170</b></div>
+        </article>
+
+      </div>
+
+      <p class="note">
+        *Verify drink recipes and prices before publishing. Only describe
+        drinks as alcohol-free when their actual ingredients are alcohol-free.
+      </p>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience section" id="experience">
+      <div class="experience-art">
+        <span class="experience-symbol">DF</span>
+        <h2>FEEL<br><span>THE</span><br>FEVER</h2>
+        <p>LIGHTS • FLAVOURS • GOOD TIMES</p>
+      </div>
+
+      <div class="experience-copy">
+        <div class="eyebrow">✦ MORE THAN A MOCKTAIL BAR</div>
+        <h2>YOUR NIGHT.<br><span>YOUR VIBE.</span></h2>
+        <p>Make ordinary evenings feel special with colorful drinks,
+          a lively atmosphere and a place to connect with your favorite people.</p>
+
+        <div class="feature">
+          <span>01</span>
+          <div><h3>Colorful Creations</h3><p>Refreshing drinks for every mood.</p></div>
+        </div>
+        <div class="feature">
+          <span>02</span>
+          <div><h3>Neon Lounge Vibe</h3><p>A modern atmosphere made for great moments.</p></div>
+        </div>
+        <div class="feature">
+          <span>03</span>
+          <div><h3>Celebrate Together</h3><p>Ask us about group visits and special occasions.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section" id="gallery">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">✦ MOMENTS THAT GLOW</div>
+          <h2>THE <span>GALLERY</span></h2>
+        </div>
+        <p>Replace these graphic placeholders with real photos of your bar.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-card gallery-one"><span>01 / THE VIBE</span><h3>LIGHTS ON.<br>WORLD OFF.</h3></div>
+        <div class="gallery-card gallery-two"><span>02 / THE DRINKS</span><h3>SIP IN COLOR.</h3></div>
+        <div class="gallery-card gallery-three"><span>03 / THE PEOPLE</span><h3>GOOD TIMES.</h3></div>
+        <div class="gallery-card gallery-four"><span>04 / THE MOMENTS</span><h3>MAKE IT MEMORABLE.</h3></div>
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="events section" id="events">
+      <div>
+        <div class="eyebrow">✦ MAKE IT A MOMENT</div>
+        <h2>GOT A REASON<br>TO <span>CELEBRATE?</span></h2>
+        <p>Planning a birthday, friends meetup or special evening?
+          Contact our team to ask about seating and availability.</p>
+        <a href="#booking" class="btn primary">Ask About Booking ↗</a>
+      </div>
+      <div class="event-circle"><strong>GOOD<br>VIBES</strong><span>ONLY ✦</span></div>
+    </section>
+
+    <!-- BOOKING -->
+    <section class="section" id="booking">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">✦ SAVE YOUR SPOT</div>
+          <h2>BOOK A <span>TABLE</span></h2>
+        </div>
+        <p>Send a booking request through WhatsApp.</p>
+      </div>
+
+      <div class="booking-layout">
+        <form id="bookingForm" class="booking-form">
+          <div class="form-row">
+            <label>Your Name
+              <input name="name" required placeholder="Enter your name">
+            </label>
+            <label>Mobile Number
+              <input name="phone" type="tel" required placeholder="Your phone number">
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label>Date
+              <input name="date" id="bookingDate" type="date" required>
+            </label>
+            <label>Preferred Time
+              <select name="time" required>
+                <option value="">Select time</option>
+                <option>12 PM – 2 PM</option>
+                <option>2 PM – 5 PM</option>
+                <option>5 PM – 8 PM</option>
+                <option>8 PM – 11 PM</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label>Guests
+              <select name="guests" required>
+                <option value="">Select guests</option>
+                <option>1–2 people</option>
+                <option>3–4 people</option>
+                <option>5–8 people</option>
+                <option>9+ people</option>
+              </select>
+            </label>
+            <label>Occasion
+              <select name="occasion">
+                <option>Casual visit</option>
+                <option>Birthday</option>
+                <option>Friends meetup</option>
+                <option>Special celebration</option>
+                <option>Other</option>
+              </select>
+            </label>
+          </div>
+
+          <label>Special Request
+            <textarea name="message" rows="3" placeholder="Anything else? (optional)"></textarea>
+          </label>
+
+          <button class="btn primary submit-btn" type="submit">
+            Send Booking Request ↗
+          </button>
+          <p class="note">Your table is not confirmed until the venue replies.</p>
+        </form>
+
+        <div class="booking-panel">
+          <div class="eyebrow">✦ DISCO FEVER</div>
+          <h3>LET'S MAKE<br>IT A GOOD ONE.</h3>
+          <p>Great drinks. Great company. Your kind of evening.</p>
+          <hr>
+          <p>Mocktail Bar<br>Bharuch, Gujarat</p>
+          <strong>#FEELTHEFEVER</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div>
+        <div class="eyebrow">✦ COME FIND YOUR VIBE</div>
+        <h2>SEE YOU<br><span>AT THE FEVER.</span></h2>
+        <p>Visit DISCO FEVER in Bharuch, Gujarat. Update the exact
+          address, phone number and opening hours before publishing.</p>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-item">
+          <span>⌖</span>
+          <div><small>LOCATION</small><strong>Bharuch, Gujarat, India</strong><p>Exact address to be added</p></div>
+        </div>
+        <div class="contact-item">
+          <span>◷</span>
+          <div><small>OPENING HOURS</small><strong>Timings to be added</strong><p>Confirm with the venue</p></div>
+        </div>
+        <div class="contact-item">
+          <span>☎</span>
+          <div><small>CALL / WHATSAPP</small><strong>Phone number to be added</strong><p>Update your contact details</p></div>
+        </div>
+        <a class="btn secondary map-button"
+          href="https://www.google.com/maps/search/?api=1&query=Disco+Fever+Bharuch+Gujarat"
+          target="_blank" rel="noopener">Open Google Maps ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">
+      <span class="logo-icon">DF</span>
+      <span>DISCO <b>FEVER</b><small>MOCKTAIL BAR</small></span>
+    </a>
+    <p>Good Drinks. Better Vibes. Zero Alcohol.</p>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> DISCO FEVER</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+    <p class="note">Please verify menu items, prices, opening hours and all alcohol-free claims before launch.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
